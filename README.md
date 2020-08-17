@@ -1,1 +1,1 @@
-Basic python problem statements with its solution to practise python programming and logic building
+Basic Python problem statements with its solution to practise python programming and logic building
