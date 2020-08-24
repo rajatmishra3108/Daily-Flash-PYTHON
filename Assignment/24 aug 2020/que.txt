@@ -1,0 +1,65 @@
+For the given input range (n1 - n2) find the even and odd numbers present in the range inclusive of the end points of the range. Find the sum of the even numbers and odd numbers respectively.
+If the sum of even numbers is more than the sum of odd numbers then print the even numbers that are in the given range according to the following rules :
+Each row can contain at max 5 numbers.
+Numbers in a row must be separated by a space.
+If sum of odd numbers is more do the same for odd numbers in the given range.
+If the given range is invalid print 'INVALID RANGE'. A range can be invalid if starting and ending value is the same or if the starting value is greater than the ending value.
+Input Format
+
+Two numbers will be given as input on a separate lines that denote the starting and ending value of the range respectively.
+
+Constraints
+
+n1, n2 <= 10000
+
+Output Format
+
+Output may contain a matrix which can have at max 5 elements in each row (the last row may contain different number of elements than the other rows) or it should print a string denoting invalid range.
+
+Sample Input 0
+
+100
+111
+Sample Output 0
+
+101 103 105 107 109
+111
+Explanation 0
+
+Even numbers in the range : 100, 102, 104, 106, 108, 110
+Sum of even numbers : 100 + 102 + 104 + 106 + 108 + 110 = 630
+Odd numbers in the range : 101, 103, 105, 107, 109, 111
+Sum of odd numbers : 101 + 103 + 105 + 107 + 109 + 111 = 636
+Thus, SUM(Odd) > SUM(Even)
+Output :
+101 103 105 107 109
+111
+Sample Input 1
+
+0
+18
+Sample Output 1
+
+0 2 4 6 8
+10 12 14 16 18
+Explanation 1
+
+Even numbers in the range : 0, 2, 4, 6, 8, 10, 12, 14, 16, 18
+Sum of even numbers : 0 + 2 + 4 + 6 + 8 + 10 + 12 + 14 + 16 + 18 = 90
+Odd numbers in the range : 1, 3, 5, 7, 9, 11, 13, 15, 17
+Sum of odd numbers : 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 = 81
+THus, SUM(Even) > SUM(Odd)
+Output :
+2 4 6 8 10
+12 14 16 18
+Sample Input 2
+
+10
+10
+Sample Output 2
+
+INVALID RANGE
+Explanation 2
+
+Given range is invalid.
+Thus output : INVALID RANGE
