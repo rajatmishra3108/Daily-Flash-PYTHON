@@ -1,0 +1,55 @@
+For a given integer 'n', consider the integers from 0 upto n (including 0 & n). Find sum and average of even and odd numbers separately for the integers considered.
+Then print the average and sum values in ascending order on separate lines. (Averages on first line and sums on second line separated by a space)
+If sum or average values for both even and odd are equal, only print it once.
+If any of the 4 required values cannot be calculated print 'INVALID INPUT'.
+Input Format
+
+A single integer 'n' will be given as input.
+
+Constraints
+
+n <= 10000
+
+Output Format
+
+Output will contain maximum two lines. One if the input is invalid. Each line can contain maximum of two values separated by a single space.
+Print averages on first line and sums on second line separated by a space.
+!!!NOTE : NOT EVEN EXTRA SPACE IS ALLOWED AS IT MIGHT RESULT IN WRONG ANSWER!!!
+Sample Input 0
+
+10
+Sample Output 0
+
+5.0
+25 30
+Explanation 0
+
+Ex : n = 10
+Considered numbers : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sum of even numbers se = 30
+Sum of odd numbers so = 25
+Average of even numbers ae = 5.0
+Average of odd numbers ao = 5.0
+
+Here avg of even = avg of odd, thus print it only once
+
+Sum of odd < sum of even, thus print sum of odd numbers first and print the sum of even numbers (ascending order)
+Sample Input 1
+
+-2
+Sample Output 1
+
+-1.0
+-2 -1
+Explanation 1
+
+n = -2
+Considered numbers = 0, -1, -2
+Sum of even numbers = -2
+Sum of odd numbers = -1
+Average of even numbers ae = -1.0
+Average of odd numbers ao = -1.0
+
+Here average is same for odd and even numbers thus print it only once
+
+Sum of even < sum of odd, thus print sum of even numbers first and then print the sum of odd numbers (ascending order)
