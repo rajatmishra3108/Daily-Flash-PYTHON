@@ -1,0 +1,69 @@
+Two numbers n1 & n2 will be given as input.
+Find square (s1 & s2) and cube (c1 & c2) for both the given values.
+Out of the calculated values (s1, s2, c1 & c2) find the minimum (min) and maximum (max) values.
+Consider the numbers between min & max (with min as the starting value and max as the ending value inclusive). Find the average value of this range (avg). Consider the avg value as integer.
+Print a pattern of following structure with the avg value as the starting value where each succeeding value will be one more than the previous one. (5 rows and 5 columns)
+Input Format
+
+Two numbers will be given as input on separate lines.
+
+Constraints
+
+-1000 <= n1, n2 <= 1000
+
+Output Format
+
+A pattern of the form * * *
+
+Sample Input 0
+
+10
+11
+Sample Output 0
+
+715
+716 717
+718 719 720
+721 722 723 724
+725 726 727 728 729
+Explanation 0
+
+n1 = 10, n2 = 11
+s1 = 100, s2 = 121
+c1 = 1000, c3 = 1331
+
+min = s1 = 100
+
+max = c3 = 1331
+
+Range to consider = 100, 101, 102, ........., 1330, 1331
+
+avg = 715.5
+
+avg in int = 715
+Sample Input 1
+
+-3
+2
+Sample Output 1
+
+-9
+-8 -7
+-6 -5 -4
+-3 -2 -1 0
+1 2 3 4 5
+Explanation 1
+
+n1 = -3, n2 = 2
+s1 = 9, s2 = 4
+c1 = -27, c3 = 8
+
+min = c1 = -27
+
+max = s2 = 4
+
+Range to consider = -27, -26, -25, ..........., 3, 9
+
+avg = -9
+
+avg in int = -9
